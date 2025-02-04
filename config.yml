@@ -8,6 +8,11 @@ enableRobotsTXT: true
 taxonomies:
     tag: tags
 
+outputs:
+     home:
+         - HTML
+         - RSS
+         - JSON
 menu:
     main:
         - name: Books
@@ -24,6 +29,9 @@ menu:
           weight: 4 
         - name: Blog
           url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+          weight: 6
+        - name: Search
+          url: search/
           weight: 6
 
 params:
@@ -52,47 +60,45 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Shivam Chhetry
-          subtitle: "I'm a Data Scientist with a passion for exploring AI models and pushing the boundaries of technology. I started coding early on, which sparked my journey into Computer Science. After earning my Bachelor's degree, I've spent the past year diving deep into Data Science and Machine Learning in the tech sector. I'm passionate about sharing my technical insights and love solving complex challenges with innovative ideas. Inspired by the Japanese concept of Kata, I believe in thoughtful, continuous improvement and driving impactful innovation."
-          imageUrl: "picture.jpeg"
+          title: <span style="color:#011F5B">Shivam Chhetry</span>
+          imageUrl: "profile.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
+            - name: Blogs
               url: papers/
-            - name: Courses
+            - name: Projects
               url: courses/
-            - name: Data
-              url: data/
+            # - name: Data
+            #   url: data/
             - name: Books
               url: books/
             - name: Tags
               url: tags/
-            - name: Archive
+            - name: Research-Paper
               url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            # - name: Blog
+            #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+          subtitle: I'm a **Data Scientist** at <span style="color:#ff6600">**[Apollo Hospital Center](https://www.apollohospitals.com/bangalore/best-hospital-in-bannerghatta-road/)**</span>specializing in **AI and Deep Learning for healthcare** 🚀. My work focuses on analyzing **Microbiology Lab health records** to identify antibiotic-resistant organisms 🦠 and their impact on patient outcomes.<br><br>With expertise in **Machine Learning, Deep Learning, Python 🐍, and PyTorch 🔥**, I build scalable AI solutions that bridge the gap between technology and real-world applications. I thrive on solving complex problems, optimizing workflows, and driving **AI-driven innovation.** 💡<br><br> I am actively seeking opportunities to apply my skills in **cutting-edge AI research and impactful data-driven solutions**.  
 
     socialIcons:
-        - name: CV
+        - name: Resume
           url: cv.pdf
         - name: Email
           url: mailto:moritz.maria.von.igelfeld@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+        # - name: Zoom
+        #   url: https://www.zoom.us/my/igelfeld
+        # - name: Location
+        #   url: location/
+        # - name: Office Hours
+        #   url: officehours/
         - name: GitHub
           url: https://github.com/pmichaillat
-        - name: Substack
+        - name: Medium 
           url: https://pmichaillat.substack.com
-        - name: YouTube
+        - name: Kaggle
           url: https://www.youtube.com/@alexandermccallsmithoffici9000
-        - name: Twitter
+        - name: Linkedin
           url: https://twitter.com/McCallSmith
 
     assets:
