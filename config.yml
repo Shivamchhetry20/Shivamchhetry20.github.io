@@ -1,5 +1,5 @@
 baseURL: "https://Shivamchhetry20.github.com" 
-title: Moritz-Maria von Igelfeld
+title: Shivam Chhetry
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -27,8 +27,8 @@ menu:
           weight: 6
 
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
-    author: Moritz-Maria von Igelfeld
+    description: "I'm a Data Scientist with a passion for exploring AI models and pushing the boundaries of technology. I started coding early on, which sparked my journey into Computer Science. After earning my Bachelor's degree, I've spent the past year diving deep into Data Science and Machine Learning in the tech sector. I'm passionate about sharing my technical insights and love solving complex challenges with innovative ideas. Inspired by the Japanese concept of Kata, I believe in thoughtful, continuous improvement and driving impactful innovation."
+    author: Shivam Chhetry
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -52,8 +52,8 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          title: Shivam Chhetry
+          subtitle: "I'm a Data Scientist with a passion for exploring AI models and pushing the boundaries of technology. I started coding early on, which sparked my journey into Computer Science. After earning my Bachelor's degree, I've spent the past year diving deep into Data Science and Machine Learning in the tech sector. I'm passionate about sharing my technical insights and love solving complex challenges with innovative ideas. Inspired by the Japanese concept of Kata, I believe in thoughtful, continuous improvement and driving impactful innovation."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
