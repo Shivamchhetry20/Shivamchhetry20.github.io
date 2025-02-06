@@ -1,9 +1,9 @@
 ---
-title: "List of Irregular Verbs Across Romance Languages" 
+title: "List of Irregular Verbs Across Romance Languages"
 date: 2013-03-07
 lastmod: 2024-07-12
 tags: ["Romance languages","philology","irregular verbs","Portuguese","Italian","French","Spanish","simulations","dataset","python"]
-author: ["Patrick Fitzcarron O'Leary","Florianus Prinzel","Walter Schoeffler-Henschell","Detlev Amadeus Unterholzer", "Dieter Vogelsang","Moritz-Maria von Igelfeld"]
+author: ["Patrick Fitzcarron O'Leary","Florianus Prinzel","Walter Schoeffler-Henschell","Detlev Amadeus Unterholzer", "Dieter Vogelsang","Shivam Chhetry"]
 description: "This dataset contains all irregular verbs in known Romance languages."
 summary: "This dataset contains all irregular verbs in known Romance languages."
 editPost:
@@ -93,7 +93,7 @@ for line in lines:
 
 #### Compute summary statistics using NumPy:
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum: `data_array`. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum: `data_array`.
 
 ```python
 data_array = np.array(data)  # Convert the list to a NumPy array

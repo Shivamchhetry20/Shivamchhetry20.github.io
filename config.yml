@@ -1,4 +1,4 @@
-baseURL: "https://Shivamchhetry20.github.com" 
+baseURL: "https://Shivamchhetry20.github.com"
 title: Shivam Chhetry
 theme: PaperMod
 
@@ -17,7 +17,7 @@ menu:
     main:
         - name: Books
           url: books/
-          weight: 5 
+          weight: 5
         - name: Papers
           url: papers/
           weight: 2
@@ -26,7 +26,7 @@ menu:
           weight: 3
         - name: Data
           url: data/
-          weight: 4 
+          weight: 4
         - name: Blog
           url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
           weight: 6
@@ -79,7 +79,7 @@ params:
               url: archive/
             # - name: Blog
             #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          subtitle: I'm a **Data Scientist** at <span style="color:#ff6600">**[Apollo Hospital Center](https://www.apollohospitals.com/bangalore/best-hospital-in-bannerghatta-road/)**</span>specializing in **AI and Deep Learning for healthcare** 🚀. My work focuses on analyzing **Microbiology Lab health records** to identify antibiotic-resistant organisms 🦠 and their impact on patient outcomes.<br><br>With expertise in **Machine Learning, Deep Learning, Python 🐍, and PyTorch 🔥**, I build scalable AI solutions that bridge the gap between technology and real-world applications. I thrive on solving complex problems, optimizing workflows, and driving **AI-driven innovation.** 💡<br><br> I am actively seeking opportunities to apply my skills in **cutting-edge AI research and impactful data-driven solutions**.  
+          subtitle: I'm a **Data Scientist** at <span style="color:#ff6600">**[Apollo Hospital Center](https://www.apollohospitals.com/bangalore/best-hospital-in-bannerghatta-road/)**</span> specializing in **AI and Deep Learning for healthcare** 🚀. My work focuses on analyzing **Microbiology Lab health records** to identify antibiotic-resistant organisms 🦠 and their impact on patient outcomes.<br><br>With expertise in **Machine Learning, Deep Learning, Python 🐍, and PyTorch 🔥**, I build scalable AI solutions that bridge the gap between technology and real-world applications. I thrive on solving complex problems, optimizing workflows, and driving **AI-driven innovation.** 💡<br><br> I am actively seeking opportunities to apply my skills in **cutting-edge AI research and impactful data-driven solutions**.
 
     socialIcons:
         - name: Resume
@@ -94,7 +94,7 @@ params:
         #   url: officehours/
         - name: GitHub
           url: https://github.com/pmichaillat
-        - name: Medium 
+        - name: Medium
           url: https://pmichaillat.substack.com
         - name: Kaggle
           url: https://www.youtube.com/@alexandermccallsmithoffici9000
@@ -107,7 +107,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Shivam Chhetry"
       icon: favicon.ico
       iconHeight: 18
 
@@ -117,7 +117,7 @@ markup:
             unsafe: true
     highlight:
         guessSyntax: true
-        style: autumn 
+        style: autumn
     tableOfContents:
         endLevel: 2
         ordered: false

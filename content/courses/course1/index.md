@@ -2,7 +2,7 @@
 title: "Lectures at the Villa of Reduced Circumstances"
 date: 2003-03-10
 lastmod: 2024-09-08
-aliases: 
+aliases:
     - /courses/course2/slides4.pdf
     - /courses/course2/slides1.pdf
     - /courses/course2/slides3.pdf
@@ -17,9 +17,9 @@ aliases:
     - /courses/course2/quiz4.pdf
     - /courses/course1/ps1.pdf
 tags: ["Romance languages","philology","irregular verbs","Spanish","Portuguese"]
-author: "Moritz-Maria von Igelfeld"
-description: "This graduate course presents classical results in Romance philology." 
-summary: "This graduate course presents classical results in Romance philology. it focuses especially on Portugese and Spanish irregular verbs." 
+author: "Shivam Chhetry"
+description: "This graduate course presents classical results in Romance philology."
+summary: "This graduate course presents classical results in Romance philology. it focuses especially on Portugese and Spanish irregular verbs."
 cover:
     image: "course1.png"
     alt: "Villa of Reduced Circumstances"
@@ -34,18 +34,18 @@ disableAnchoredHeadings: false
 
 ## Introduction
 
-This course covers research topics related to Romance philology. It focuses especially on Portugese and Spanish irregular verbs. It tries to answer several questions: 
+This course covers research topics related to Romance philology. It focuses especially on Portugese and Spanish irregular verbs. It tries to answer several questions:
 
-+ Why are there irregular verbs? 
-+ How are Portuguese irregular verbs different from Spanish irregular verbs? 
-+ What is the role of Latin and Greek in these irregularities? 
++ Why are there irregular verbs?
++ How are Portuguese irregular verbs different from Spanish irregular verbs?
++ What is the role of Latin and Greek in these irregularities?
 + What about irregular verbs in other Romance languages?
     + Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. 
-    + Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+tempor incididunt ut labore et dolore magna aliqua.
+    + Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     + Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     + Excepteur sint occaecat cupidatat non proident.
-    
+
 Sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Part 1: Review of Romance languages
@@ -92,7 +92,7 @@ This section introduces Portugese irregular verbs. Lorem ipsum dolor sit amet, c
 
 ## Part 3: Spanish irregular verbs
 
-This section quickly discusses irregular verbs in Spanish. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+This section quickly discusses irregular verbs in Spanish. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 ##### Lecture videos
 
@@ -111,10 +111,9 @@ This section quickly discusses irregular verbs in Spanish. Lorem ipsum dolor sit
 
 ## Conclusion
 
-This section concludes by comparing Portuguese and Spanish irregular verbs to irregular verbs in other Romance languages. 
+This section concludes by comparing Portuguese and Spanish irregular verbs to irregular verbs in other Romance languages.
 
-> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst. Quisque non felis. Nullam vulputate libero quis ligula. Fusce scelerisque suscipit sapien. Suspendisse commodo ullamcorper magna. 
-> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst. Quisque non felis. Nullam vulputate libero quis ligula. Fusce scelerisque suscipit sapien. Suspendisse commodo ullamcorper magna.
+> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
