@@ -6,8 +6,22 @@
     <description>Recent content in Philology on Shivam Chhetry</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/philology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/courses/course2/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/course2/</guid>
+      <description>This undergraduate course discusses profanity in Early Irish.</description>
+    </item>
+    <item>
+      <title>WhatsApp Chat Analysis with Deployment in herokuapp</title>
+      <link>http://localhost:1313/courses/course1/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/course1/</guid>
+      <description>This graduate course presents classical results in Romance philology.</description>
+    </item>
     <item>
       <title>List of Irregular Verbs Across Romance Languages</title>
       <link>http://localhost:1313/data/data1/</link>
@@ -23,25 +37,11 @@
       <description>This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013.</description>
     </item>
     <item>
-      <title>Lectures at the Villa of Reduced Circumstances</title>
-      <link>http://localhost:1313/courses/course1/</link>
-      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/course1/</guid>
-      <description>This graduate course presents classical results in Romance philology.</description>
-    </item>
-    <item>
       <title>Portugese Irregular Verbs</title>
       <link>http://localhost:1313/books/book1/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/books/book1/</guid>
       <description>This book discusses Portugese irregular verbs in great details.</description>
-    </item>
-    <item>
-      <title>Profanity in Early Irish</title>
-      <link>http://localhost:1313/courses/course2/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/course2/</guid>
-      <description>This undergraduate course discusses profanity in Early Irish.</description>
     </item>
   </channel>
 </rss>

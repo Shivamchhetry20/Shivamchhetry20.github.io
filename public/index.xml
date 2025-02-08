@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>http://localhost:1313/courses/course2/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/course2/</guid>
+      <description>This undergraduate course discusses profanity in Early Irish.</description>
+    </item>
+    <item>
       <title>Location</title>
       <link>http://localhost:1313/location/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
@@ -70,13 +77,6 @@
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/books/book1/</guid>
       <description>This book discusses Portugese irregular verbs in great details.</description>
-    </item>
-    <item>
-      <title>Finger prediction using custom callback and acheive F1 score 100%</title>
-      <link>http://localhost:1313/courses/course2/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/course2/</guid>
-      <description>This undergraduate course discusses profanity in Early Irish.</description>
     </item>
   </channel>
 </rss>
