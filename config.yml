@@ -42,7 +42,7 @@ params:
     defaultTheme: light
     hideFooter: false
     disableThemeToggle: true
-    ShowShareButtons: false
+    ShowShareButtons: true
     ShowReadingTime: false
     disableSpecial1stPost: true
     disableAnchoredHeadings: true
@@ -85,7 +85,7 @@ params:
         - name: Resume
           url: cv.pdf
         - name: Email
-          url: mailto:moritz.maria.von.igelfeld@gmail.com
+          url: mailto:shivamchhetry20@gmail.com
         # - name: Zoom
         #   url: https://www.zoom.us/my/igelfeld
         # - name: Location
@@ -93,18 +93,18 @@ params:
         # - name: Office Hours
         #   url: officehours/
         - name: GitHub
-          url: https://github.com/pmichaillat
+          url: https://github.com/shivamchhetry20
         - name: Medium
           url: https://pmichaillat.substack.com
         - name: Kaggle
-          url: https://www.youtube.com/@alexandermccallsmithoffici9000
+          url: https://www.kaggle.com/shivamkc01
         - name: Linkedin
-          url: https://twitter.com/McCallSmith
+          url: https://linkedin.in/shivamkc01
 
     assets:
         disableScrollBarStyle: true
     cover:
-        hiddenInList: false
+        hiddenInList: true
         hiddenInSingle: true
     label:
       text: "Shivam Chhetry"

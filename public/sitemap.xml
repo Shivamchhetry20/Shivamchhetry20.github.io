@@ -41,6 +41,9 @@
     <loc>http://localhost:1313/papers/paper4/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/deep-learning/</loc>
+    <lastmod>2024-10-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/experimental-psychology/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -54,6 +57,9 @@
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/social-psychology/</loc>
+    <lastmod>2024-10-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tranfomers/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/papers/paper3/</loc>
