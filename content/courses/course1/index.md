@@ -1,7 +1,7 @@
 ---
-title: "Lectures at the Villa of Reduced Circumstances"
-date: 2003-03-10
-lastmod: 2024-09-08
+title: "WhatsApp Chat Analysis with Deployment in herokuapp"
+date: 2021-03-10
+lastmod: 2021-05-04
 aliases:
     - /courses/course2/slides4.pdf
     - /courses/course2/slides1.pdf
@@ -21,99 +21,111 @@ author: "Shivam Chhetry"
 description: "This graduate course presents classical results in Romance philology."
 summary: "This graduate course presents classical results in Romance philology. it focuses especially on Portugese and Spanish irregular verbs."
 cover:
-    image: "course1.png"
+    image: "whatsapp.png"
     alt: "Villa of Reduced Circumstances"
     relative: false
-editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Course portal"
 showToc: true
-disableAnchoredHeadings: false
+disableAnchoredHeadings: true
 
 ---
 
-## Introduction
+#### **1. Introduction**
+- **Problem Statement**:  
+  *"WhatsApp group chats contain a wealth of data about user behavior, but extracting meaningful insights from raw text exports is tedious. Manual analysis of hundreds/thousands of messages is impractical."*
+- **Your Solution**:  
+  *"I built a Python web app that automates WhatsApp chat analysis and visualizes key metrics like active users, message patterns, and timelines. It’s deployed on Heroku for easy access."*
 
-This course covers research topics related to Romance philology. It focuses especially on Portugese and Spanish irregular verbs. It tries to answer several questions:
+---
 
-+ Why are there irregular verbs?
-+ How are Portuguese irregular verbs different from Spanish irregular verbs?
-+ What is the role of Latin and Greek in these irregularities?
-+ What about irregular verbs in other Romance languages?
-    + Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
-    + Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    + Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-    + Excepteur sint occaecat cupidatat non proident.
+#### **2. Key Features to Highlight**
+1. **Chat Parsing**  
+   - Handles WhatsApp’s specific text export format (timestamps, users, multi-line messages).
+   - Regex-based extraction of metadata (e.g., `\d+/\d+/\d+, \d+:\d+ - (.*?): (.*)`).
 
-Sunt in culpa qui officia deserunt mollit anim id est laborum.
+2. **Metrics Calculated**  
+   - Most active users (message count, media shares).
+   - Daily/hourly activity patterns.
+   - Timeline of messages (e.g., peaks during weekends).
 
-## Part 1: Review of Romance languages
+3. **Visualizations**  
+   - Interactive charts (Bar graphs, timelines).
+   - Word clouds for frequent terms (if implemented).
 
-This section reviews Romance languages. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+4. **Deployment**  
+   - Heroku integration for public access.
+   - Flask backend for lightweight web handling.
 
-##### Lecture videos
+---
 
-+ [Lecture video 1](https://youtu.be/3MZeJED2yns) – This is a first lecture video.
-+ [Lecture video 2](https://youtu.be/8ihJsf-AXdA) – This is a another lecture video.
-+ [Lecture video 3](https://youtu.be/79MSNfp1rw0) – This is a third lecture video. It is quite short.
+#### **3. Technical Deep Dive (Code Breakdown)**
+Include snippets with explanations:
 
-##### Lecture notes
+```python
+# app.py – Core Flask Logic
+@app.route('/analyze', methods=['POST'])
+def analyze():
+    file = request.files['file']
+    chat_text = file.read().decode('utf-8')  # Parse uploaded file
+    messages = parse_whatsapp_chat(chat_text)  # Custom parsing function
+    df = pd.DataFrame(messages)  # Pandas for analysis
+    generate_plots(df)  # Matplotlib/Plotly visualization
+    return render_template('results.html', data=df)
+```
 
-+ [Lecture note 1](lecture1.pdf)
+```python
+# Parsing Logic Example (Adapt from your code)
+def parse_whatsapp_chat(text):
+    pattern = r'(\d+/\d+/\d+, \d+:\d+) - (.*?): (.*)'
+    messages = re.findall(pattern, text)
+    return [{'timestamp': msg[0], 'user': msg[1], 'content': msg[2]} for msg in messages]
+```
 
-##### Readings
+---
 
-+ [Paper 1](https://pascalmichaillat.org/1.pdf) – This is a first paper to read.
-+ [Paper 2](https://pascalmichaillat.org/2.pdf) – This paper builds on the first one.
-+ [Paper 3](https://pascalmichaillat.org/4.pdf) – This paper is more complex.
+#### **4. Deployment Challenges & Solutions**
+- **Heroku Setup**:  
+  *"I used a `Procfile` to define the web process and `requirements.txt` to manage dependencies. Heroku’s ephemeral filesystem required temporary storage for uploaded files."*
 
-## Part 2: Portugese irregular verbs
+- **Scalability**:  
+  *"The app uses lightweight libraries (Pandas, Matplotlib) to handle large chat exports efficiently."*
 
-This section introduces Portugese irregular verbs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+---
 
-##### Lecture videos
+#### **5. Screenshots/Visuals**
+Include 2-3 visuals:  
+1. Upload interface (`upload.html`).  
+2. Sample dashboard with charts (`results.html`).  
+3. Heroku deployment workflow diagram.
 
-+ [Lecture video 4](https://youtu.be/IZI0_WwIyb8)
-+ [Lecture video 5](https://youtu.be/Qz7CCB1-gu8)
-+ [Lecture video 6](https://youtu.be/79MSNfp1rw0)
+---
 
-##### Lecture notes
+#### **6. Future Improvements**
+- **Advanced Analytics**:  
+  *"Add sentiment analysis using NLTK or spaCy to gauge chat tone."*
+- **User Authentication**:  
+  *"Implement login via OAuth to save user-specific chat histories."*
+- **Real-Time Features**:  
+  *"WebSocket integration for live chat analysis during active group conversations."*
 
-+ [Lecture note 2](lecture2.pdf)
+---
 
-##### Readings
+#### **7. Call-to-Action**
+- **Demo Link**: [https://your-heroku-app.herokuapp.com](https://your-heroku-app.herokuapp.com)  
+- **GitHub Repo**: [github.com/shivamkc01/WhatsAppChat_AnalysisDeployusingHeroku](https://github.com/shivamkc01/WhatsAppChat_AnalysisDeployusingHeroku)  
+  *"Feel free to contribute or fork the repository!"*
 
-+ [Paper 4](https://pascalmichaillat.org/5.pdf) – This paper computes things. (Details about the simulations are presented in the paper's [online appendix](https://pascalmichaillat.org/5a.pdf).)
-+ [Paper 5](https://pascalmichaillat.org/3.pdf) – This paper proves things. (The paper's [online appendix](https://pascalmichaillat.org/3a.pdf) contains long proofs and extensions of the results.)
+---
 
+### **Blog Title Suggestions**
+1. *"Building a WhatsApp Chat Analyzer: From Raw Exports to Actionable Insights"*  
+2. *"Deploying a Python WhatsApp Analytics Tool on Heroku: A Step-by-Step Guide"*  
+3. *"Visualizing Group Chat Dynamics with Python and Flask"*
 
-## Part 3: Spanish irregular verbs
+---
 
-This section quickly discusses irregular verbs in Spanish. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+### **Additional Tips**
+- **Personal Anecdote**: Share why you built this (e.g., *"I wanted to analyze my college group’s chat activity to identify key contributors"*).
+- **Metrics**: Include performance stats (e.g., *"Processes 10k messages in <5 seconds"*).
+- **SEO Keywords**: "WhatsApp analysis", "Python Flask", "Heroku deployment", "Chat visualization".
 
-##### Lecture videos
-
-+ [Lecture video 7](https://youtu.be/pIS8-mXG1oY)
-+ [Lecture video 8](https://youtu.be/FUaeNM8_fxs)
-+ [Optional lecture video](https://youtu.be/xjHVrx7jfdY)
-
-##### Basic readings
-
-+ [Paper 6](https://pascalmichaillat.org/10.pdf)
-
-##### Advanced readings
-
-+ [Paper 7](https://pascalmichaillat.org/11.pdf)
-+ [Paper 8](https://pascalmichaillat.org/12.pdf)
-
-## Conclusion
-
-This section concludes by comparing Portuguese and Spanish irregular verbs to irregular verbs in other Romance languages.
-
-> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst. Quisque non felis. Nullam vulputate libero quis ligula. Fusce scelerisque suscipit sapien. Suspendisse commodo ullamcorper magna.
-> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Let me know if you’d like me to draft specific sections or refine the technical explanations! 🚀
