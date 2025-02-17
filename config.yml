@@ -46,7 +46,7 @@ params:
     ShowReadingTime: false
     disableSpecial1stPost: true
     disableAnchoredHeadings: true
-    ShowPostNavLinks: false
+    ShowPostNavLinks: true
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
